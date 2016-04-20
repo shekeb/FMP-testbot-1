@@ -1,0 +1,25 @@
+{
+  "name": "fmp-testbot-1",
+  "version": "1.0.0",
+  "description": "a simple facebook messenger bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "haha no",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekeb/FMP-testbot-1.git"
+  },
+  "author": "Shekeb Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shekeb/FMP-testbot-1/issues"
+  },
+  "homepage": "https://github.com/shekeb/FMP-testbot-1#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  }
+}
