@@ -3,7 +3,13 @@ var app = express();
 var request2 = require('request');
 var bodyParser = require('body-parser');
 var token = "CAAOJkZAMM1IEBAKRjKQ2YsuP79hfoDdoLcMpK8dp9zVKcOZBSh5JkIwaRZAetry9CkmTE46GltGfU0o0KL8MNn6g4cEN4n4HJgorxWNZBsCQat4cHUKF4Bl9GLwZAXi6lDGHYlpYXMpZCHFHlOrLXCeT71NNbus9N17pHafqZApemJzfZAnOKqEvseQGxSnNlN8ZD";
-            
+
+var server = require('http').Server(app);
+var io = require('socket.io')(server);
+
+server.listen(80);
+
+
 app.use(bodyParser.json())  // will auto parse JSON. from github.com/expressjs/body-parser
 
 
